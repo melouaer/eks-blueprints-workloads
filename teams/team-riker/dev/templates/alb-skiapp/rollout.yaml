@@ -82,6 +82,7 @@ metadata:
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}]'
     alb.ingress.kubernetes.io/tags: 'Environment=dev,Team=Riker'
+    alb.ingress.kubernetes.io/subnets: subnet-0693121a3dac91464,subnet-0a0e05b81f130311b
 spec:
   ingressClassName: alb
   rules:
